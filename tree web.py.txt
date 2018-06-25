@@ -1,0 +1,14 @@
+f = open('OSPFTree.html','w')
+
+message = """<html>
+<head>Tree</head>
+<body>
+<img src=C:\Users\Delhoves\Desktop\projet python\Base Programmation\projet 3\OSPF\ospf.png/>
+<img src=C:\Users\Delhoves\Desktop\projet python\Base Programmation\projet 3\OSPF\ospf1.png/>
+
+</body>
+
+</html>"""
+
+f.write(message)
+f.close()
